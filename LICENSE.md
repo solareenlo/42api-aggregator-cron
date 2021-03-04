@@ -1,5 +1,6 @@
 The MIT License (MIT)
 
+Copyright (c) 2021 solareenlo
 Copyright (c) 2015 Yoann Fuks
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
