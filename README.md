@@ -1,16 +1,17 @@
-# 42-API-AGGREGATOR-CRON
+# 42api-aggregator-cron
 
-📅 42 API AGGREGATOR CRON update a mysql database previously created with [42-API-AGGREGATOR](https://github.com/42Charts/42-api-aggregator) using [nodejs](https://nodejs.org/en/docs/) and [cron](https://fr.wikipedia.org/wiki/Cron)
+42api-aggregator-cron update a mysql database previously created with [42api-aggregator](https://github.com/solareenlo/42api-aggregator) using [nodejs](https://nodejs.org/en/docs/) and [cron](https://fr.wikipedia.org/wiki/Cron)
 
 ## Getting started
-
 ### (node)
-
 - Install [nodejs](https://nodejs.org/) and make sure `npm` is in your **PATH**
 
 ### (project & node_modules)
-
-$> `git clone https://github.com/42Charts/42-api-aggregator-cron.git && cd 42-api-aggregator-cron && npm i`
+```shell
+git clone https://github.com/solareenlo/42api-aggregator-cron.git
+cd 42api-aggregator-cron
+npm install
+```
 
 ### (Environments variables)
 In the project root $> `touch .env`
@@ -29,8 +30,9 @@ FT_API_RATE_LIMIT_PER_HOUR=1200
 ```
 
 ### (Start)
-
-$> `npm run start`
+```shell
+npm run start
+```
 
 ## License
 
